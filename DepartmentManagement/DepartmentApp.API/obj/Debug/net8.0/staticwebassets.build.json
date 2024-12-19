@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "QYHjf6EVaRcWurUuEh16CXJ4gEi8hEeGPDQmsz5kiXU=",
+  "Source": "DepartmentApp.API",
+  "BasePath": "_content/DepartmentApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

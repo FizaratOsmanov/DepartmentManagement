@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\bin\Debug\net8.0\DepartmentApp.Core.deps.json
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\bin\Debug\net8.0\DepartmentApp.Core.dll
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\bin\Debug\net8.0\DepartmentApp.Core.pdb
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.sourcelink.json
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.dll
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\refint\DepartmentApp.Core.dll
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\DepartmentApp.Core.pdb
+C:\Users\LENOVO\source\repos\DepartmentManagement\DepartmentApp.Core\obj\Debug\net8.0\ref\DepartmentApp.Core.dll
