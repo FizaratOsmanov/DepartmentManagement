@@ -53,7 +53,7 @@ public class DepartmentsController : ControllerBase
 
 
 
-    [HttpDelete("id")]
+    [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteDepartment(Department department)
     {
         await _departmentService.DeleteAsync(department);

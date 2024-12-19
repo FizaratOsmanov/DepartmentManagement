@@ -65,7 +65,7 @@
   {
     "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
     "Method": "DeleteDepartment",
-    "RelativePath": "api/Departments/id",
+    "RelativePath": "api/Departments/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -73,6 +73,11 @@
       {
         "Name": "department",
         "Type": "DepartmentApp.Core.Department",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
