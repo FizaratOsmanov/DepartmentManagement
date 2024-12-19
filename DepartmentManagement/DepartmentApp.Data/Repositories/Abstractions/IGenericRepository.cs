@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentApp.Data.Repositories.Abstractions
+namespace DepartmentApp.Data.Repositories.Abstractions;
+
+public interface IGenericRepository<Tentity> where Tentity : BaseEntity, new()
 {
-    public interface IGenericRepository<Tentity> where Tentity : BaseEntity, new()
-    {
-        Task<ICollection<Tentity>> GetAllAsync();
-        Task<Tentity> GetByIdAsync(int id);
+    Task<ICollection<Tentity>> GetAllAsync();
+    Task<Tentity> GetByIdAsync(int id);
+    Task<Tentity> CreateAsync(Tentity entity);
+    void Update(Tentity entity);
+    void  Delete(Tentity entity);
 
-        Task<Tentity> CreateAsync(Tentity entity);
-        void Update(Tentity entity);
-        void  Delete(Tentity entity);
-
-    }
 }

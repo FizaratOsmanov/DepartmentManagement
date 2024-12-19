@@ -7,10 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentApp.Data.Repositories.Implementations
+namespace DepartmentApp.Data.Repositories.Implementations;
+
+public class EmployeeRepository : GenericRepository<Employee>, IEmployeeRepository
 {
-    public class EmployeeRepository :  GenericRepository<Employee>, IEmployeeRepository
-    {
-        public EmployeeRepository(AppDbContext appDbContext):base(appDbContext) { }
-    }
+    public EmployeeRepository(AppDbContext appDbContext) : base(appDbContext) { }
 }

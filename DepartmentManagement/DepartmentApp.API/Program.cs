@@ -3,7 +3,6 @@ using DepartmentApp.BL.Services.Implementations;
 using DepartmentApp.Data.DAL;
 using DepartmentApp.Data.Repositories.Abstractions;
 using DepartmentApp.Data.Repositories.Implementations;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

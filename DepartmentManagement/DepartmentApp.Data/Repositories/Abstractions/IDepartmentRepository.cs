@@ -5,9 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentApp.Data.Repositories.Abstractions
+namespace DepartmentApp.Data.Repositories.Abstractions;
+
+public interface IDepartmentRepository : IGenericRepository<Department>
 {
-    public interface IDepartmentRepository:IGenericRepository<Department>
-    {
-    }
 }

@@ -12,20 +12,53 @@ namespace DepartmentApp.API.Controllers;
 public class EmployeesController : ControllerBase
 {
     private readonly IEmployeeService _employeeService;
-
     public EmployeesController(IEmployeeService employeeService)
     {
         _employeeService = employeeService; 
     }
+
+
+
     [HttpGet]
-    public async Task<ICollection<Employee>> GetAll()
+    public async Task<IActionResult> GetAllEmployees()
     {
-        return await _employeeService.GetAllAsync();
+        var employee = await _employeeService.GetAllAsync();
+        return Ok(employee);
     }
 
-    [HttpPost]
-    public async Task<Employee> Create(EmployeeAddDTO addDTO)
+
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetEmployeeById(int id)
     {
-        return await _employeeService.CreateAsync(addDTO);
+        var employee = await _employeeService.GetByIdAsync(id);
+        return Ok(employee);
+    }
+
+
+
+    [HttpPost]
+    public async Task<IActionResult> CreateEmployee(EmployeeAddDTO addDTO)
+    {
+        await _employeeService.CreateAsync(addDTO);
+        return Ok(addDTO);
+    }
+
+
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateEmployee(Employee employee)
+    {
+        await _employeeService.UpdateAsync(employee);
+        return Ok(employee);
+    }
+
+
+
+    [HttpDelete("id")]
+    public async Task<IActionResult> DeleteEmployee(Employee employee)
+    {
+        await _employeeService.DeleteAsync(employee);
+        return Ok();
     }
 }
