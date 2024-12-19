@@ -1,4 +1,5 @@
 ﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
+using DepartmentApp.BL.Exceptions.DepartmentExceptions;
 using DepartmentApp.BL.Services.Abstractions;
 using DepartmentApp.Core;
 using DepartmentApp.Data.DAL;
@@ -37,7 +38,7 @@ namespace DepartmentApp.BL.Services.Implementations
 
         public void Delete(Department department)
         {
-            throw new NotImplementedException();
+            _appDbContext.Remove(department);
         }
 
         public async Task<ICollection<Department>> GetAllAsync()
@@ -46,14 +47,15 @@ namespace DepartmentApp.BL.Services.Implementations
             return await _departmentRepository.GetAllAsync();
         }
 
-        public Task<Department> GetByIdAsync(int id)
+        public async Task<Department> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _departmentRepository.GetByIdAsync(id);
         }
 
         public void Update(Department department)
         {
-            throw new NotImplementedException();
+
+
         }
     }
 }

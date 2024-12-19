@@ -1,101 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\exceptions\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\exceptions\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\services\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\services\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.core\\base\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\base\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.bl\\dtos\\departmentdtos\\departmentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\dtos\\departmentdtos\\departmentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\services\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\exceptions\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\exceptions\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\migrations\\20241219043317_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\migrations\\20241219043317_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.api\\departmentapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.api\\departmentapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\departmentapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.core\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\dtos\\employeedtos\\employeeadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\dtos\\employeedtos\\employeeadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.bl\\dtos\\departmentdtos\\departmentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF267C1-D804-4385-820D-A7C7D4C4833B}|DepartmentApp.BL\\DepartmentApp.BL.csproj|solutionrelative:departmentapp.bl\\dtos\\departmentdtos\\departmentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.core\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.core\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.core\\base\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\base\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\repositories\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\repositories\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24405C3D-864E-4E2A-B7DB-2A8AEAFE88FD}|DepartmentApp.API\\DepartmentApp.API.csproj|solutionrelative:departmentapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\migrations\\20241219043317_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\migrations\\20241219043317_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.core\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AC12869-99CD-43E4-9072-1729A10BEE12}|DepartmentApp.Core\\DepartmentApp.Core.csproj|solutionrelative:departmentapp.core\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\source\\repos\\departmentmanagement\\departmentapp.data\\migrations\\20241219051318_adddepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|c:\\users\\lenovo\\desktop\\departmentmanagement\\departmentmanagement\\departmentapp.data\\migrations\\20241219051318_adddepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3E0D5B5-DDF0-43A5-9A5E-AC47BA6E848B}|DepartmentApp.Data\\DepartmentApp.Data.csproj|solutionrelative:departmentapp.data\\migrations\\20241219051318_adddepartmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -114,23 +122,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Program.cs",
+              "RelativeToolTip": "DepartmentApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:22.101Z"
+              "WhenOpened": "2024-12-19T04:22:30.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DepartmentNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:33:10.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:43:59.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:11.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:22.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:33.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentApp.API.http",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\DepartmentApp.API.http",
+              "RelativeDocumentMoniker": "DepartmentApp.API\\DepartmentApp.API.http",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\DepartmentApp.API.http",
+              "RelativeToolTip": "DepartmentApp.API\\DepartmentApp.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-19T04:22:30.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "DepartmentApp.API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:17:46.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.API\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "DepartmentApp.API\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:49:34.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\EmployeeDTOs\\EmployeeAddDTO.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\DTOs\\EmployeeDTOs\\EmployeeAddDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\EmployeeDTOs\\EmployeeAddDTO.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\DTOs\\EmployeeDTOs\\EmployeeAddDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:03:53.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:11:39.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:37:04.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
+              "RelativeToolTip": "DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:28:41.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Employee.cs",
+              "RelativeDocumentMoniker": "DepartmentApp.Core\\Employee.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Employee.cs",
+              "RelativeToolTip": "DepartmentApp.Core\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:12:39.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Implementations\\DepartmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,72 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\Services\\Abstractions\\IDepartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:43:59.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.API\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "DepartmentApp.API\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T04:49:34.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\Exceptions\\DepartmentExceptions\\DepartmentNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:33:10.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\Program.cs",
-              "RelativeToolTip": "DepartmentApp.API\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T04:22:30.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\Services\\Abstractions\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:11.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Abstractions\\IDepartmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,23 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
-              "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Implementations\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T05:37:04.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Abstractions\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,23 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\Services\\Implementations\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:33.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Core\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseEntity.cs",
               "RelativeToolTip": "DepartmentApp.Core\\Base\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "BaseAuditableEntity.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
               "RelativeToolTip": "DepartmentApp.Core\\Base\\BaseAuditableEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,23 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DepartmentAddDTO.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
-              "RelativeToolTip": "DepartmentApp.BL\\DTOs\\DepartmentDTOs\\DepartmentAddDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:28:41.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Abstractions\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\appsettings.json",
               "RelativeDocumentMoniker": "DepartmentApp.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.API\\appsettings.json",
               "RelativeToolTip": "DepartmentApp.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -307,23 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "RelativeToolTip": "DepartmentApp.Data\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:11:39.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20241219051318_addDepartmentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Migrations\\20241219051318_addDepartmentConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "DepartmentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
               "RelativeToolTip": "DepartmentApp.Data\\DAL\\Configurations\\DepartmentConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "20241219043317_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
               "RelativeToolTip": "DepartmentApp.Data\\Migrations\\20241219043317_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\DAL\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Data\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Data\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "DepartmentApp.Data\\DAL\\AppDbContext.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -367,35 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DepartmentApp.API.http",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\DepartmentApp.API.http",
-              "RelativeDocumentMoniker": "DepartmentApp.API\\DepartmentApp.API.http",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.API\\DepartmentApp.API.http",
-              "RelativeToolTip": "DepartmentApp.API\\DepartmentApp.API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-19T04:22:30.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Employee.cs",
-              "RelativeDocumentMoniker": "DepartmentApp.Core\\Employee.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Employee.cs",
-              "RelativeToolTip": "DepartmentApp.Core\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T04:12:39.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Department.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Department.cs",
               "RelativeDocumentMoniker": "DepartmentApp.Core\\Department.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\Department.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\Department.cs",
               "RelativeToolTip": "DepartmentApp.Core\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -11,8 +11,4 @@
     <ProjectReference Include="..\DepartmentApp.Data\DepartmentApp.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\EmployeeDTOs\" />
-  </ItemGroup>
-
 </Project>

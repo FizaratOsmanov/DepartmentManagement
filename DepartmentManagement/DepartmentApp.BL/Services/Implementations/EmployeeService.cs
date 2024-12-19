@@ -1,4 +1,5 @@
-﻿using DepartmentApp.BL.Services.Abstractions;
+﻿using DepartmentApp.BL.DTOs.EmployeeDTOs;
+using DepartmentApp.BL.Services.Abstractions;
 using DepartmentApp.Core;
 using System;
 using System.Collections.Generic;
@@ -16,9 +17,29 @@ namespace DepartmentApp.BL.Services.Implementations
             _employeeService=employeeService;
         }
 
+        public Task<Employee> CreateAsync(EmployeeAddDTO addDTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Employee employee)
+        {
+            _employeeService.Delete(employee);
+        }
+
         public async Task<ICollection<Employee>> GetAllAsync()
         {
             return await _employeeService.GetAllAsync();
+        }
+
+        public Task<Employee> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Employee employee)
+        {
+            throw new NotImplementedException();
         }
     }
 }

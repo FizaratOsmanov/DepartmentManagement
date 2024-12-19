@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj",
       "projectName": "DepartmentApp.Core",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\DepartmentManagement\\DepartmentApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

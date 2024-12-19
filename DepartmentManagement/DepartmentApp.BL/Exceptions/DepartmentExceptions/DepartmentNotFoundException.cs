@@ -8,7 +8,9 @@ namespace DepartmentApp.BL.Exceptions.DepartmentExceptions
 {
     public class DepartmentNotFoundException:Exception
     {
-        public DepartmentNotFoundException(string message) :base(message) { }
-
+        public DepartmentNotFoundException(string message) : base(message)
+        {
+            
+        }
     }
 }
