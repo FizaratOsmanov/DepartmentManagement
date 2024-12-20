@@ -149,7 +149,7 @@
   {
     "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
     "Method": "DeleteEmployee",
-    "RelativePath": "api/Employees/id",
+    "RelativePath": "api/Employees/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -157,6 +157,11 @@
       {
         "Name": "employee",
         "Type": "DepartmentApp.Core.Employee",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],

@@ -15,12 +15,6 @@ namespace DepartmentApp.Data.DAL
 
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
-
-        public async Task FindAsync(Func<object, bool> value)
-        {
-            throw new NotImplementedException();
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

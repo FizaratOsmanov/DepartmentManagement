@@ -248,12 +248,20 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Employees/id": {
+      },
       "delete": {
         "tags": [
           "Employees"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
