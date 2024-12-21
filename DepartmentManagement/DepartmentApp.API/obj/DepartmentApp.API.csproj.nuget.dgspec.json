@@ -34,9 +34,6 @@
             "projectReferences": {
               "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DepartmentApp.BL.csproj": {
                 "projectPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.BL\\DepartmentApp.BL.csproj"
-              },
-              "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DepartmentApp.Data.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DepartmentApp.Data.csproj"
               }
             }
           }
@@ -119,9 +116,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Core\\DepartmentApp.Core.csproj"
-              },
               "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DepartmentApp.Data.csproj": {
                 "projectPath": "C:\\Users\\LENOVO\\Desktop\\DepartmentManagement\\DepartmentManagement\\DepartmentApp.Data\\DepartmentApp.Data.csproj"
               }
@@ -144,6 +138,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"
@@ -218,6 +216,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -288,6 +292,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.11, )"

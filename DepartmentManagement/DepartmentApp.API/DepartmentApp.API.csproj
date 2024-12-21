@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DepartmentApp.BL\DepartmentApp.BL.csproj" />
-    <ProjectReference Include="..\DepartmentApp.Data\DepartmentApp.Data.csproj" />
   </ItemGroup>
 
 </Project>

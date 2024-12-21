@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentApp.Core
+namespace DepartmentApp.Core.Entities
 {
     public class Department:BaseAuditableEntity
     {
         public string Name {  get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         public IEnumerable<Employee> Employees { get; set; }
     }

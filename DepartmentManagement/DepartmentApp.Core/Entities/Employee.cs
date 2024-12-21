@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentApp.Core
+namespace DepartmentApp.Core.Entities
 {
     public class Employee:BaseAuditableEntity
     {
@@ -14,7 +14,7 @@ namespace DepartmentApp.Core
 
         public string? Email { get; set; }
 
-        public int DepartmentId { get; set; }
+        public int? DepartmentId { get; set; }
         public Department? Department { get; set; }
 
     }

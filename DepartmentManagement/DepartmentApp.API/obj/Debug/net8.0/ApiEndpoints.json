@@ -1,24 +1,30 @@
 [
   {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "GetAllDepartments",
-    "RelativePath": "api/Departments",
-    "HttpMethod": "GET",
+    "ContainingType": "DepartmentApp.API.Controllers.AuthsController",
+    "Method": "Register",
+    "RelativePath": "api/Auths/register",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DepartmentApp.BL.DTOs.AppUserDTOs.AppUserCreateDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "CreateDepartment",
+    "Method": "Create",
     "RelativePath": "api/Departments",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "addDTO",
+        "Name": "dto",
         "Type": "DepartmentApp.BL.DTOs.DepartmentDTOs.DepartmentAddDTO",
         "IsRequired": true
       }
@@ -26,142 +32,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "GetDepartmentById",
-    "RelativePath": "api/Departments/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "UpdateDepartment",
-    "RelativePath": "api/Departments/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "department",
-        "Type": "DepartmentApp.Core.Department",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "DeleteDepartment",
-    "RelativePath": "api/Departments/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "department",
-        "Type": "DepartmentApp.Core.Department",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "GetAllEmployees",
-    "RelativePath": "api/Employees",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "CreateEmployee",
+    "Method": "Create",
     "RelativePath": "api/Employees",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "addDTO",
+        "Name": "dto",
         "Type": "DepartmentApp.BL.DTOs.EmployeeDTOs.EmployeeAddDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "GetEmployeeById",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "UpdateEmployee",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "employee",
-        "Type": "DepartmentApp.Core.Employee",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "DeleteEmployee",
-    "RelativePath": "api/Employees/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "employee",
-        "Type": "DepartmentApp.Core.Employee",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
         "IsRequired": true
       }
     ],

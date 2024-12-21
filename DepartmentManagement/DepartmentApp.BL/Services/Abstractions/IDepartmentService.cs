@@ -1,16 +1,13 @@
 ﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
-using DepartmentApp.Core;
+using DepartmentApp.Core.Entities;
 
-namespace DepartmentApp.BL.Services.Abstractions
+namespace DepartmentApp.BL.Services.Abstractions;
+
+public interface IDepartmentService
 {
-    public interface IDepartmentService
-    {
-        Task<ICollection<Department>> GetAllAsync();
-
-        Task<Department> GetByIdAsync(int id);
-
-        Task<Department> CreateAsync(DepartmentAddDTO addDTO);
-        Task UpdateAsync(Department department);
-        Task DeleteAsync(Department department);
-    }
+    Task<ICollection<Department>> GetAllAsync();
+    Task<Department> CreateAsync(DepartmentAddDTO dto);
+    Task<Department> GetByIdAsync(int id);
+    Task<bool> SoftDeleteAsync(int id);
+    Task<bool> UpdateAsync(int id, DepartmentAddDTO dto);
 }

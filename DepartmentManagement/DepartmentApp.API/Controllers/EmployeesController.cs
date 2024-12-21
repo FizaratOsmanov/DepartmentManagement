@@ -2,6 +2,7 @@
 using DepartmentApp.BL.DTOs.EmployeeDTOs;
 using DepartmentApp.BL.Services.Abstractions;
 using DepartmentApp.Core;
+using DepartmentApp.Core.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,54 +12,76 @@ namespace DepartmentApp.API.Controllers;
 [ApiController]
 public class EmployeesController : ControllerBase
 {
+
+
     private readonly IEmployeeService _employeeService;
+
     public EmployeesController(IEmployeeService employeeService)
     {
-        _employeeService = employeeService; 
+        _employeeService = employeeService;
     }
-
-
-
-    [HttpGet]
-    public async Task<IActionResult> GetAllEmployees()
-    {
-        var employee = await _employeeService.GetAllAsync();
-        return Ok(employee);
-    }
-
-
-
-    [HttpGet("{id}")]
-    public async Task<IActionResult> GetEmployeeById(int id)
-    {
-        var employee = await _employeeService.GetByIdAsync(id);
-        return Ok(employee);
-    }
-
-
 
     [HttpPost]
-    public async Task<IActionResult> CreateEmployee(EmployeeAddDTO addDTO)
+    public async Task<IActionResult> Create(EmployeeAddDTO dto)
     {
-        await _employeeService.CreateAsync(addDTO);
-        return Ok(addDTO);
+        if (!ModelState.IsValid)
+        {
+            return StatusCode(StatusCodes.Status400BadRequest, ModelState);
+        };
+        return StatusCode(StatusCodes.Status200OK, await _employeeService.CreateAsync(dto));
     }
 
 
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateEmployee(Employee employee)
-    {
-        await _employeeService.UpdateAsync(employee);
-        return Ok(employee);
-    }
+
+    //private readonly IEmployeeService _employeeService;
+    //public EmployeesController(IEmployeeService employeeService)
+    //{
+    //    _employeeService = employeeService; 
+    //}
 
 
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteEmployee(Employee employee)
-    {
-        await _employeeService.DeleteAsync(employee);
-        return Ok();
-    }
+    //[HttpGet]
+    //public async Task<IActionResult> GetAllEmployees()
+    //{
+    //    var employee = await _employeeService.GetAllAsync();
+    //    return Ok(employee);
+    //}
+
+
+
+    //[HttpGet("{id}")]
+    //public async Task<IActionResult> GetEmployeeById(int id)
+    //{
+    //    var employee = await _employeeService.GetByIdAsync(id);
+    //    return Ok(employee);
+    //}
+
+
+
+    //[HttpPost]
+    //public async Task<IActionResult> CreateEmployee(EmployeeAddDTO addDTO)
+    //{
+    //    await _employeeService.CreateAsync(addDTO);
+    //    return Ok(addDTO);
+    //}
+
+
+
+    //[HttpPut("{id}")]
+    //public async Task<IActionResult> UpdateEmployee(Employee employee)
+    //{
+    //    await _employeeService.UpdateAsync(employee);
+    //    return Ok(employee);
+    //}
+
+
+
+    //[HttpDelete("{id}")]
+    //public async Task<IActionResult> DeleteEmployee(Employee employee)
+    //{
+    //    await _employeeService.DeleteAsync(employee);
+    //    return Ok();
+    //}
 }
