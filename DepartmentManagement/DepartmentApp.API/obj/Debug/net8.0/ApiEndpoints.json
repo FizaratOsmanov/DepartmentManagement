@@ -135,6 +135,28 @@
     ]
   },
   {
+    "ContainingType": "DepartmentApp.API.Controllers.EmailController",
+    "Method": "SendWelcome",
+    "RelativePath": "api/Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toUser",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
     "Method": "CreateEmployee",
     "RelativePath": "api/Employees",

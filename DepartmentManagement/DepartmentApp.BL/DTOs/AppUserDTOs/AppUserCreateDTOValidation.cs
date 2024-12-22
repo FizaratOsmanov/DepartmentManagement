@@ -1,8 +1,6 @@
 ﻿using FluentValidation;
 using System.Text.RegularExpressions;
-
 namespace DepartmentApp.BL.DTOs.AppUserDTOs;
-
 public class AppUserCreateDtoValidation : AbstractValidator<AppUserCreateDTO>
 {
     public AppUserCreateDtoValidation()
@@ -21,11 +19,18 @@ public class AppUserCreateDtoValidation : AbstractValidator<AppUserCreateDTO>
 
     }
 
-    public bool BeValidEmailAddress(string email)
+    public  bool BeValidEmailAddress(string email)
     {
         Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
         Match match = regex.Match(email);
         if (match.Success) { return true; }
         return false;
-    }    
+    }
+
+    public bool BeValidPhoneNumber(string phoneNumber)
+    {
+        Regex regex = new Regex(@"^\+994(50|51|55|70|77)\d{7}$");
+        Match match = regex.Match(phoneNumber);
+        return match.Success;
+    }
 }

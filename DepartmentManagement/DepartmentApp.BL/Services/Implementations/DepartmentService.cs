@@ -57,5 +57,5 @@ public class DepartmentService:IDepartmentService
         _departmentRepository.Update(updatedDepartment);
         await _departmentRepository.Save();
         return true;
-    }
+    }  
 }

@@ -8,11 +8,13 @@ namespace DepartmentApp.BL.Services.Implementations
 {
     public class AuthService:IAuthService
     {
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly UserManager<AppUser> _userManager;
         private readonly IMapper _mapper;
 
-        public AuthService(UserManager<AppUser> userManager, IMapper mapper)
+        public AuthService(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager, IMapper mapper)
         {
+            _signInManager = signInManager;
             _userManager = userManager;
             _mapper = mapper;
         }
@@ -27,6 +29,20 @@ namespace DepartmentApp.BL.Services.Implementations
             }
             return true;
 
+        }
+        public async Task<bool> ConfirmEmail(string userId, string token)
+        {
+            AppUser? user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                throw new Exception("Problem occured");
+            }
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                throw new Exception($"Failed to confirm email: {token}");  
+            }
+            return true;
         }
     }
 }
