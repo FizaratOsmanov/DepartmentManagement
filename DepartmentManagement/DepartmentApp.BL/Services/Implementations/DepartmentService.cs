@@ -8,7 +8,6 @@ using DepartmentApp.Data.Repositories.Abstractions;
 namespace DepartmentApp.BL.Services.Implementations;
 public class DepartmentService:IDepartmentService
 {
-
     private readonly IDepartmentRepository _departmentRepository;
     private readonly IMapper _mapper;
 
@@ -18,24 +17,19 @@ public class DepartmentService:IDepartmentService
         _mapper = mapper;
     }
 
-
     public async Task<ICollection<Department>> GetAllAsync()
     {
         return await _departmentRepository.GetAllAsync();
     }
-
-
 
     public async Task<Department> CreateAsync(DepartmentAddDTO dto)
     {
         Department createdDepartment = _mapper.Map<Department>(dto);
         createdDepartment.CreatedAt = DateTime.UtcNow.AddHours(4);
         var createdEntity = await _departmentRepository.CreateAsync(createdDepartment);
-        await _departmentRepository.SaveChangesAsync();
+        await _departmentRepository.Save();
         return createdEntity;
     }
-
-
 
     public async Task<Department> GetByIdAsync(int id)
     {
@@ -44,20 +38,15 @@ public class DepartmentService:IDepartmentService
             throw new EntityNotFoundException();
         }
         return await _departmentRepository.GetByIdAsync(id);
-
     }
-
-
 
     public async Task<bool> SoftDeleteAsync(int id)
     {
         var departmentEntity = await GetByIdAsync(id);
         _departmentRepository.SoftDelete(departmentEntity);
-        await _departmentRepository.SaveChangesAsync();
+        await _departmentRepository.Save();
         return true;
     }
-
-
 
     public async Task<bool> UpdateAsync(int id, DepartmentAddDTO dto)
     {
@@ -66,9 +55,7 @@ public class DepartmentService:IDepartmentService
         updatedDepartment.UpdatedAt = DateTime.UtcNow.AddHours(4);
         updatedDepartment.Id = id;
         _departmentRepository.Update(updatedDepartment);
-        await _departmentRepository.SaveChangesAsync();
+        await _departmentRepository.Save();
         return true;
-
     }
-
 }

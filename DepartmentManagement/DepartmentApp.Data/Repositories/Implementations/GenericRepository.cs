@@ -45,7 +45,7 @@ public class GenericRepository<Tentity> : IGenericRepository<Tentity> where Tent
         entity.IsDeleted = true;
     }
 
-    public async Task<int> SaveChangesAsync()
+    public async Task<int> Save()
     {
         return await _context.SaveChangesAsync();
     }

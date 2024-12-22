@@ -27,5 +27,5 @@ public class AppUserCreateDtoValidation : AbstractValidator<AppUserCreateDTO>
         Match match = regex.Match(email);
         if (match.Success) { return true; }
         return false;
-    }
+    }    
 }

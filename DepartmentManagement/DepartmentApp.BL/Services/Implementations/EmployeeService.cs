@@ -31,7 +31,7 @@ public class EmployeeService : IEmployeeService
         Employee createdEmployee = _mapper.Map<Employee>(dto);
         createdEmployee.CreatedAt = DateTime.UtcNow.AddHours(4);
         var createdEntity = await _employeeRepository.CreateAsync(createdEmployee);
-        await _employeeRepository.SaveChangesAsync();
+        await _employeeRepository.Save();
         return createdEntity;
     }
 
@@ -53,7 +53,7 @@ public class EmployeeService : IEmployeeService
     {
         var employeeEntity = await GetByIdAsync(id);
         _employeeRepository.SoftDelete(employeeEntity);
-        await _employeeRepository.SaveChangesAsync();
+        await _employeeRepository.Save();
         return true;
     }
 
@@ -66,7 +66,7 @@ public class EmployeeService : IEmployeeService
         updatedEmployee.UpdatedAt = DateTime.UtcNow.AddHours(4);
         updatedEmployee.Id = id;
         _employeeRepository.Update(employeeEntity);
-        await _employeeRepository.SaveChangesAsync();
+        await _employeeRepository.Save();
         return true;
 
     }

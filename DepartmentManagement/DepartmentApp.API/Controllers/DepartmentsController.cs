@@ -1,5 +1,6 @@
 ﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
 using DepartmentApp.BL.Services.Abstractions;
+using DepartmentApp.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentApp.API.Controllers;
@@ -18,7 +19,7 @@ public class DepartmentsController : ControllerBase
 
 
     [HttpPost]
-    public async Task<IActionResult> Create(DepartmentAddDTO dto)
+    public async Task<IActionResult> CreateDepartment(DepartmentAddDTO dto)
     {
         if (!ModelState.IsValid)
         {
@@ -27,6 +28,35 @@ public class DepartmentsController : ControllerBase
         return StatusCode(StatusCodes.Status200OK, await _departmentService.CreateAsync(dto));
     }
 
+    [HttpGet]  
+    public async Task<ICollection<Department>> GetAllDepartment()
+    {
+        return await _departmentService.GetAllAsync();
+    }
+
+
+    [HttpGet("{id}")]
+
+    public async Task<Department> GetDepartmentById(int id)
+    {
+        return await _departmentService.GetByIdAsync(id);
+    }
+
+
+    [HttpDelete("{id}")]
+
+    public async Task<bool> DeleteDepartment(int id)
+    {
+        return await _departmentService.SoftDeleteAsync(id);
+    }
+
+
+    [HttpPut("{id}")]
+    public async Task<bool> UpdateDepartment(int id, DepartmentAddDTO dto)
+    {
+        return await _departmentService.UpdateAsync(id, dto);
+        
+    }
 
 
 }

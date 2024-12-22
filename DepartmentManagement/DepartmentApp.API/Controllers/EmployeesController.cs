@@ -1,6 +1,7 @@
 ﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
 using DepartmentApp.BL.DTOs.EmployeeDTOs;
 using DepartmentApp.BL.Services.Abstractions;
+using DepartmentApp.BL.Services.Implementations;
 using DepartmentApp.Core;
 using DepartmentApp.Core.Entities;
 using Microsoft.AspNetCore.Http;
@@ -22,7 +23,7 @@ public class EmployeesController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(EmployeeAddDTO dto)
+    public async Task<IActionResult> CreateEmployee(EmployeeAddDTO dto)
     {
         if (!ModelState.IsValid)
         {
@@ -34,54 +35,35 @@ public class EmployeesController : ControllerBase
 
 
 
-    //private readonly IEmployeeService _employeeService;
-    //public EmployeesController(IEmployeeService employeeService)
-    //{
-    //    _employeeService = employeeService; 
-    //}
+
+    [HttpGet]
+    public async Task<ICollection<Employee>> GetAllEmployee()
+    {
+        return await _employeeService.GetAllAsync();
+    }
 
 
+    [HttpGet("{id}")]
 
-    //[HttpGet]
-    //public async Task<IActionResult> GetAllEmployees()
-    //{
-    //    var employee = await _employeeService.GetAllAsync();
-    //    return Ok(employee);
-    //}
-
+    public async Task<Employee> GetEmployeeById(int id)
+    {
+        return await _employeeService.GetByIdAsync(id);
+    }
 
 
-    //[HttpGet("{id}")]
-    //public async Task<IActionResult> GetEmployeeById(int id)
-    //{
-    //    var employee = await _employeeService.GetByIdAsync(id);
-    //    return Ok(employee);
-    //}
+    [HttpDelete("{id}")]
+
+    public async Task<bool> DeleteEmployee(int id)
+    {
+        return await _employeeService.SoftDeleteAsync(id);
+    }
 
 
+    [HttpPut("{id}")]
+    public async Task<bool> UpdateEmployee(int id, EmployeeAddDTO dto)
+    {
+        return await _employeeService.UpdateAsync(id, dto);
 
-    //[HttpPost]
-    //public async Task<IActionResult> CreateEmployee(EmployeeAddDTO addDTO)
-    //{
-    //    await _employeeService.CreateAsync(addDTO);
-    //    return Ok(addDTO);
-    //}
+    }
 
-
-
-    //[HttpPut("{id}")]
-    //public async Task<IActionResult> UpdateEmployee(Employee employee)
-    //{
-    //    await _employeeService.UpdateAsync(employee);
-    //    return Ok(employee);
-    //}
-
-
-
-    //[HttpDelete("{id}")]
-    //public async Task<IActionResult> DeleteEmployee(Employee employee)
-    //{
-    //    await _employeeService.DeleteAsync(employee);
-    //    return Ok();
-    //}
 }

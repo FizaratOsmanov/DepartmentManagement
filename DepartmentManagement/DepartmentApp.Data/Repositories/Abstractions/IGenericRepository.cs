@@ -10,5 +10,5 @@ public interface IGenericRepository<Tentity> where Tentity : BaseEntity, new()
     Task<Tentity> CreateAsync(Tentity entity);
     void Update(Tentity entity);
     void SoftDelete(Tentity entity);
-    Task<int> SaveChangesAsync();
+    Task<int> Save();
 }
