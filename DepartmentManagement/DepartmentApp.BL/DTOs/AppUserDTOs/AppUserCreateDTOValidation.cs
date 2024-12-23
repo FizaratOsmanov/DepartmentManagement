@@ -26,11 +26,4 @@ public class AppUserCreateDtoValidation : AbstractValidator<AppUserCreateDTO>
         if (match.Success) { return true; }
         return false;
     }
-
-    public bool BeValidPhoneNumber(string phoneNumber)
-    {
-        Regex regex = new Regex(@"^\+994(50|51|55|70|77)\d{7}$");
-        Match match = regex.Match(phoneNumber);
-        return match.Success;
-    }
 }

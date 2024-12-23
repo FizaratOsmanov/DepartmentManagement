@@ -2,45 +2,88 @@
 using DepartmentApp.BL.DTOs.AppUserDTOs;
 using DepartmentApp.BL.Services.Abstractions;
 using DepartmentApp.Core.Entities;
+using DepartmentApp.Data.DAL;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace DepartmentApp.BL.Services.Implementations
 {
-    public class AuthService:IAuthService
+    public class AuthService : IAuthService
     {
-        private readonly SignInManager<AppUser> _signInManager;
-        private readonly UserManager<AppUser> _userManager;
+        readonly IEmailService _emailService;
+        readonly UserManager<AppUser> _userManager;
+        readonly SignInManager<AppUser> _signInManager;
         private readonly IMapper _mapper;
 
-        public AuthService(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager, IMapper mapper)
+        public AuthService(IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, AppDbContext context, IEmailService emailService, IMapper mapper)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _emailService = emailService;
             _mapper = mapper;
+        }
+        public Task ChangePasswordAsync(string email, string oldPassword, string newPassword)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<bool> ConfirmEmailAsync(string userId, string token)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                throw new Exception("Invalid user.");
+            }
+
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+            if (!result.Succeeded)
+            {
+                throw new Exception("Email confirmation failed.");
+            }
+            return true;
+        }
+
+        public async Task<ICollection<AppUserCreateDTO>> GetAllUsersAsync()
+        {
+            ICollection<AppUser> users = await _userManager.Users.ToListAsync();
+
+            ICollection<AppUserCreateDTO> allUsers = _mapper.Map<ICollection<AppUserCreateDTO>>(users);
+
+            return allUsers;
+        }
+
+        public async Task<AppUserCreateDTO> GetOneUserAsync(string userName)
+        {
+            AppUser? user = await _userManager.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+            AppUserCreateDTO oneUser = _mapper.Map<AppUserCreateDTO>(user);
+            return oneUser;
         }
 
         public async Task<bool> RegisterAsync(AppUserCreateDTO dto)
         {
-            AppUser user = _mapper.Map<AppUser>(dto);
-            var result = await _userManager.CreateAsync(user, dto.Password);
+
+            MailAddress email = new MailAddress(dto.Email);
+
+            string pattern = @"^\+994(50|51|55|70|77)\d{7}$";
+            Regex regex = new Regex(pattern);
+
+            if (!regex.IsMatch(dto.PhoneNumber))
+            {
+                throw new Exception("Phone number is not valid");
+            }
+
+            AppUser appUser = _mapper.Map<AppUser>(dto);
+            var result = await _userManager.CreateAsync(appUser, dto.Password);
             if (!result.Succeeded)
             {
-                throw new Exception("Could not create user");
-            }
-            return true;
-
-        }
-        public async Task<bool> ConfirmEmail(string userId, string token)
-        {
-            AppUser? user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
-            {
-                throw new Exception("Problem occured");
-            }
-            var result = await _userManager.ConfirmEmailAsync(user, token);
-            if (result.Succeeded)
-            {
-                throw new Exception($"Failed to confirm email: {token}");  
+                if (result.Errors.Any(e => e.Code == "DuplicateEmail"))
+                {
+                    throw new Exception("You have already been registered with this email.");
+                }
+                throw new Exception("Something went wrong.");
             }
             return true;
         }

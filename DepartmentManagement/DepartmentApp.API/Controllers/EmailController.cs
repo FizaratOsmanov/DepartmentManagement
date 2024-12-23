@@ -13,6 +13,6 @@ namespace DepartmentApp.API.Controllers
         {
             _emailService = emailService;
             
-        }
+        }    
     }
 }
