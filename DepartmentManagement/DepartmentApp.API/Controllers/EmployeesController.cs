@@ -1,10 +1,6 @@
-﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
-using DepartmentApp.BL.DTOs.EmployeeDTOs;
+﻿using DepartmentApp.BL.DTOs.EmployeeDTOs;
 using DepartmentApp.BL.Services.Abstractions;
-using DepartmentApp.BL.Services.Implementations;
-using DepartmentApp.Core;
 using DepartmentApp.Core.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentApp.API.Controllers;
@@ -22,7 +18,7 @@ public class EmployeesController : ControllerBase
         _employeeService = employeeService;
     }
 
-    [HttpPost]
+    [HttpPost("Create")]
     public async Task<IActionResult> CreateEmployee(EmployeeAddDTO dto)
     {
         if (!ModelState.IsValid)
@@ -36,7 +32,7 @@ public class EmployeesController : ControllerBase
 
 
 
-    [HttpGet]
+    [HttpGet("GetAll")]
     public async Task<ICollection<Employee>> GetAllEmployee()
     {
         return await _employeeService.GetAllAsync();

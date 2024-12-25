@@ -136,7 +136,7 @@
         }
       }
     },
-    "/api/Departments": {
+    "/api/Departments/Create": {
       "post": {
         "tags": [
           "Departments"
@@ -165,7 +165,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Departments/GetAll": {
       "get": {
         "tags": [
           "Departments"
@@ -338,7 +340,7 @@
         }
       }
     },
-    "/api/Employees": {
+    "/api/Employees/Create": {
       "post": {
         "tags": [
           "Employees"
@@ -367,7 +369,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Employees/GetAll": {
       "get": {
         "tags": [
           "Employees"

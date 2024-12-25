@@ -18,7 +18,7 @@ public class DepartmentsController : ControllerBase
 
 
 
-    [HttpPost]
+    [HttpPost("Create")]
     public async Task<IActionResult> CreateDepartment(DepartmentAddDTO dto)
     {
         if (!ModelState.IsValid)
@@ -28,7 +28,7 @@ public class DepartmentsController : ControllerBase
         return StatusCode(StatusCodes.Status200OK, await _departmentService.CreateAsync(dto));
     }
 
-    [HttpGet]  
+    [HttpGet("GetAll")]  
     public async Task<ICollection<Department>> GetAllDepartment()
     {
         return await _departmentService.GetAllAsync();
@@ -36,7 +36,6 @@ public class DepartmentsController : ControllerBase
 
 
     [HttpGet("{id}")]
-
     public async Task<Department> GetDepartmentById(int id)
     {
         return await _departmentService.GetByIdAsync(id);
@@ -44,7 +43,6 @@ public class DepartmentsController : ControllerBase
 
 
     [HttpDelete("{id}")]
-
     public async Task<bool> DeleteDepartment(int id)
     {
         return await _departmentService.SoftDeleteAsync(id);

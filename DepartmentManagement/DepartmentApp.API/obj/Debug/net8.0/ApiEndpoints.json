@@ -85,42 +85,6 @@
   },
   {
     "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "CreateDepartment",
-    "RelativePath": "api/Departments",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "DepartmentApp.BL.DTOs.DepartmentDTOs.DepartmentAddDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
-    "Method": "GetAllDepartment",
-    "RelativePath": "api/Departments",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.ICollection\u00601[[DepartmentApp.Core.Entities.Department, DepartmentApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
     "Method": "GetDepartmentById",
     "RelativePath": "api/Departments/{id}",
     "HttpMethod": "GET",
@@ -203,32 +167,32 @@
     ]
   },
   {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "CreateEmployee",
-    "RelativePath": "api/Employees",
+    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/Departments/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "DepartmentApp.BL.DTOs.EmployeeDTOs.EmployeeAddDTO",
+        "Type": "DepartmentApp.BL.DTOs.DepartmentDTOs.DepartmentAddDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
-    "Method": "GetAllEmployee",
-    "RelativePath": "api/Employees",
+    "ContainingType": "DepartmentApp.API.Controllers.DepartmentsController",
+    "Method": "GetAllDepartment",
+    "RelativePath": "api/Departments/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.ICollection\u00601[[DepartmentApp.Core.Entities.Employee, DepartmentApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.ICollection\u00601[[DepartmentApp.Core.Entities.Department, DepartmentApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -312,6 +276,42 @@
     "ReturnTypes": [
       {
         "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
+    "Method": "CreateEmployee",
+    "RelativePath": "api/Employees/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DepartmentApp.BL.DTOs.EmployeeDTOs.EmployeeAddDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentApp.API.Controllers.EmployeesController",
+    "Method": "GetAllEmployee",
+    "RelativePath": "api/Employees/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[DepartmentApp.Core.Entities.Employee, DepartmentApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
