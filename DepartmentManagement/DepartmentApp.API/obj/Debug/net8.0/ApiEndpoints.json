@@ -11,27 +11,6 @@
   },
   {
     "ContainingType": "DepartmentApp.API.Controllers.AccountsController",
-    "Method": "GetOneUser",
-    "RelativePath": "api/Accounts/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DepartmentApp.API.Controllers.AccountsController",
     "Method": "ChangePassword",
     "RelativePath": "api/Accounts/ChangePassword",
     "HttpMethod": "POST",
@@ -69,6 +48,22 @@
   },
   {
     "ContainingType": "DepartmentApp.API.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DepartmentApp.BL.DTOs.AppUserDTOs.LoginUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentApp.API.Controllers.AccountsController",
     "Method": "Register",
     "RelativePath": "api/Accounts/Register",
     "HttpMethod": "POST",
@@ -79,6 +74,22 @@
         "Name": "dto",
         "Type": "DepartmentApp.BL.DTOs.AppUserDTOs.AppUserCreateDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentApp.API.Controllers.AccountsController",
+    "Method": "GetOneUser",
+    "RelativePath": "api/Accounts/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

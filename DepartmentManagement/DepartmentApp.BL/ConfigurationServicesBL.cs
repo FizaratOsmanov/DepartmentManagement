@@ -1,5 +1,7 @@
 ﻿using DepartmentApp.BL.DTOs.DepartmentDTOs;
 using DepartmentApp.BL.DTOs.EmployeeDTOs;
+using DepartmentApp.BL.ExternalServices.Abstractions;
+using DepartmentApp.BL.ExternalServices.Implementations;
 using DepartmentApp.BL.Profiles.DepartmentProfiles;
 using DepartmentApp.BL.Profiles.EmployeeProfiles;
 using DepartmentApp.BL.Services.Abstractions;
@@ -17,6 +19,7 @@ namespace DepartmentApp.BL
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IJwtTokenService,JwtTokenService>();
 
         }
 

@@ -1,6 +1,10 @@
 ﻿using DepartmentApp.BL.DTOs.AppUserDTOs;
+using DepartmentApp.BL.Exceptions.CommonExceptions;
 using DepartmentApp.BL.Services.Abstractions;
+using DepartmentApp.BL.Services.Implementations;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentApp.API.Controllers
@@ -24,7 +28,7 @@ namespace DepartmentApp.API.Controllers
 
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("User")]
         public async Task<IActionResult> GetOneUser(string user)
         {
 
@@ -75,6 +79,27 @@ namespace DepartmentApp.API.Controllers
             }
                 await _service.ChangePasswordAsync(dto.Email, dto.OldPassword, dto.NewPassword);
                 return Ok();
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(LoginUserDTO dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ModelState);
+            }
+            try
+            {
+                return StatusCode(StatusCodes.Status200OK, await _service.LoginAsync(dto));
+            }
+            catch (EntityNotFoundException)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, "User not found");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, e.Message);
+            }
         }
     }
 }
