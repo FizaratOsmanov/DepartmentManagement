@@ -52,18 +52,22 @@ namespace DepartmentApp.BL.Services.Implementations
 
         public async Task<bool> ConfirmEmailAsync(string userId, string token)
         {
+
+
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
-            {
-                throw new Exception("Invalid user.");
-            }
+                throw new Exception("Invalid user ID.");
 
             var result = await _userManager.ConfirmEmailAsync(user, token);
             if (!result.Succeeded)
             {
-                throw new Exception("Email confirmation failed.");
+                throw new Exception("Email confirmation failed");
             }
             return true;
+
+
+
+
         }
 
         public async Task<ICollection<AppUserCreateDTO>> GetAllUsersAsync()
@@ -122,15 +126,15 @@ namespace DepartmentApp.BL.Services.Implementations
         public async Task<string> LoginAsync(LoginUserDTO dto)
         {
             AppUser? user = await _userManager.FindByNameAsync(dto.UserName);
-            if (user == null) 
+            if (user == null)
             {
-                throw new EntityNotFoundException(); 
+                throw new EntityNotFoundException();
             }
 
             bool result = await _userManager.CheckPasswordAsync(user, dto.Password);
 
-            if (!result) 
-            { 
+            if (!result)
+            {
                 throw new Exception("Username or password is wrong");
             }
             string token = _jwtTokenService.GenerateToken(user);

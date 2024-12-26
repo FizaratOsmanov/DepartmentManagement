@@ -1,6 +1,7 @@
 ﻿using DepartmentApp.BL.DTOs.EmployeeDTOs;
 using DepartmentApp.BL.Services.Abstractions;
 using DepartmentApp.Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentApp.API.Controllers;
@@ -17,6 +18,7 @@ public class EmployeesController : ControllerBase
     {
         _employeeService = employeeService;
     }
+
 
     [HttpPost("Create")]
     public async Task<IActionResult> CreateEmployee(EmployeeAddDTO dto)
@@ -39,8 +41,9 @@ public class EmployeesController : ControllerBase
     }
 
 
-    [HttpGet("{id}")]
 
+
+    [HttpGet("{id}")]
     public async Task<Employee> GetEmployeeById(int id)
     {
         return await _employeeService.GetByIdAsync(id);

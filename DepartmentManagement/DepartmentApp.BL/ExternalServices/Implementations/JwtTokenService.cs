@@ -17,22 +17,6 @@ public class JwtTokenService : IJwtTokenService
         _configuration = configuration;
     }
 
-    //public string GenerateToken(AppUser user)
-    //{
-    //    List<Claim> claims = new List<Claim>()
-    //    {
-    //        new Claim("FirstName", user.FirstName),
-    //        new Claim(ClaimTypes.Name,user.UserName),
-    //        new Claim(ClaimTypes.NameIdentifier,user.Id)
-    //    };
-
-    //    SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
-    //    SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-    //    JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(claims: claims, issuer: _configuration["Jwt:Issuer"],
-    //        audience: _configuration["Jwt:Audience"], signingCredentials: signingCredentials, expires: DateTime.UtcNow.AddMinutes(10));
-    //    return new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
-    //}
     public string GenerateToken(AppUser user)
     {
         if (user == null)
@@ -42,9 +26,9 @@ public class JwtTokenService : IJwtTokenService
 
         var claims = new List<Claim>
     {
-        new Claim("FirstName", user.FirstName), 
+        new Claim("FirstName", user.FirstName),
         new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
-        new Claim(ClaimTypes.NameIdentifier, user.Id) 
+        new Claim(ClaimTypes.NameIdentifier, user.Id),
     };
 
         var secretKey = _configuration["Jwt:SecretKey"];

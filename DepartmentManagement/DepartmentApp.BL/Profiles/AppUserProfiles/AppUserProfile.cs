@@ -9,6 +9,8 @@ namespace DepartmentApp.BL.Profiles.AppUserProfiles
         public AppUserProfile()
         {
             CreateMap<AppUser, AppUserCreateDTO>();
+            CreateMap<AppUserCreateDTO, AppUser>();
+
         }
     }
 }
